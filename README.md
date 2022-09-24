@@ -3,7 +3,7 @@ It is not a GPSDO but you get a ~10 MHz signal which is measured with GPS accura
 Due to its squarewaviness and lack of filtering you get many harmonics, which can be used to adjust on many higher frequencies.
 
 The software calculates and shows 3 frequencies:
-1. 10 MHz (for shortwave receivers or equipment with 10 MHz ref input)
+1. 10 MHz (for shortwave receivers or equipment with 10 MHz reference input)
 2. 430 MHz (for 70 cm receivers)
 3. 1280 MHz (for 23 cm receivers)
 
@@ -15,8 +15,8 @@ The software calculates and shows 3 frequencies:
 * Additionally it shows the 43th and 128th harmonic of the frequency so you can adjust your 70 and 23 cm receivers, too.
 
 
-![image of board](https://github.com/formtapez/T-Beam_GPS_10MHz_Reference/raw/master/pics/board.jpg)
-![signal on receiver](https://github.com/formtapez/T-Beam_GPS_10MHz_Reference/raw/master/pics/rx.png)
+![image of board](https://github.com/formtapez/T-Beam_GPS_10MHz_Reference/blob/main/pics/board.jpg?raw=true)
+![signal on receiver](https://github.com/formtapez/T-Beam_GPS_10MHz_Reference/blob/main/pics/rx.png?raw=true)
 
 
 # Dependencies
@@ -39,5 +39,5 @@ RST | Reset
 # Thanks
 
 I used much code from some amazing dudes:
-Thanks to [Bjoerns-TB](https://github.com/Bjoerns-TB/Lora-TTNMapper-T-Beam) who forked [DeuxVis](https://github.com/DeuxVis/Lora-TTNMapper-T-Beam) who forked [sbiermann](https://github.com/sbiermann/Lora-TTNMapper-ESP32) and [smaksimowicz](https://github.com/hottimuc/Lora-TTNMapper-T-Beam) for his great GPS-Autobauding.
+Thanks to [Bjoerns-TB](https://github.com/Bjoerns-TB/Lora-TTNMapper-T-Beam) who forked [DeuxVis](https://github.com/DeuxVis/Lora-TTNMapper-T-Beam) who forked [sbiermann](https://github.com/sbiermann/Lora-TTNMapper-ESP32), and [smaksimowicz](https://github.com/hottimuc/Lora-TTNMapper-T-Beam) for his great GPS-Autobauding.
 
